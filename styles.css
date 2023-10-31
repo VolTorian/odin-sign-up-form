@@ -1,0 +1,33 @@
+body {
+    background-color: darkslategray;
+    margin: 0;
+}
+
+.page-content {
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.left {
+    background-color: yellow;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#left-image {
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.image-credits {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
