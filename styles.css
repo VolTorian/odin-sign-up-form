@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     background-color: darkslategray;
     margin: 0;
@@ -38,22 +42,50 @@ body {
 }
 
 .intro {
-    padding: 15% 20px;
+    padding: 15% 40px 10%;
     background-color: aqua;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .form-content {
     box-shadow: 0 5px 5px -2px lightgray;
-    padding: 20px;
+    padding: 20px 40px 40px;
+}
+
+.form-content > p {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .input-section {
     display: flex;
 }
 
+.input-section div > div {
+    padding-top: 20px;
+}
+
 label {
     display: inline-block;
     width: 100%;
+    font-size: small;
+}
+
+input {
+    font-size: medium;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+input:focus {
+    border: 2px solid #8A8AFF;
+    font-size: medium;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px 6px;
 }
 
 button {
@@ -63,3 +95,4 @@ button {
 form + p {
     margin: 20px;
 }
+
