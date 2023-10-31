@@ -9,6 +9,7 @@ body {
     height: 100vh;
     margin: 0 auto;
     padding: 0;
+    display: flex;
 }
 
 .left {
@@ -30,4 +31,14 @@ body {
     color: white;
     position: absolute;
     bottom: 10px;
+}
+
+.right {
+    width: 60%;
+}
+
+.intro {
+    /* height: 40%; */
+    padding: 20% 20px;
+    background-color: aqua;
 }
