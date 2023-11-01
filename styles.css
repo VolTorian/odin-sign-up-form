@@ -34,13 +34,22 @@ body {
     object-fit: cover;
 }
 
-/* .logo-text {
-
-} */
-
-h3 {
+.logo {
+    position: relative;
+    top: 30%;
     width: 100%;
+    background-color: rgba(0, 0, 0, .5);
     color: white;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.logo > img {
+    height: 80%;
+    padding: 0 20px;
 }
 
 .image-credits {
