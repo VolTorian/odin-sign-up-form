@@ -18,6 +18,9 @@ body {
 
 .left {
     background-color: yellow;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
     width: 40%;
     height: 100vh;
     display: flex;
@@ -29,6 +32,15 @@ body {
     width: 100%;
     vertical-align: middle;
     object-fit: cover;
+}
+
+/* .logo-text {
+
+} */
+
+h3 {
+    width: 100%;
+    color: white;
 }
 
 .image-credits {
