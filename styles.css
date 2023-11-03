@@ -110,10 +110,22 @@ input:focus {
 }
 
 button {
-    margin: 20px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    padding: 15px 45px;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px lightgray;
+    margin: 30px 40px;
+}
+
+button:hover {
+    background-color: rgb(2, 175, 2);
 }
 
 form + p {
-    margin: 20px;
+    margin: 0 40px;
 }
 
