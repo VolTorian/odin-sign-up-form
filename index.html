@@ -18,6 +18,7 @@
                 on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </div>
         </div>
+
         <div class="right">
             <div class="intro">
                 <p>
@@ -27,7 +28,7 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
 
-            <form action="https://httpbin.org/post" method="post">
+            <form id="sign-up-form" action="https://httpbin.org/post" method="post">
                 <div class="form-content">
                     <p>Let's do this!</p>
                     <div class="input-section">
@@ -61,8 +62,9 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit">Create Account</button>
             </form>
+            <button type="submit" form="sign-up-form">Create Account</button>
+            
             <p>Already have an account? <strong style="color: green;">Log in</strong></p>
         </div>
     </div>
