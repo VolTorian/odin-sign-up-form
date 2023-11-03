@@ -9,7 +9,6 @@ body {
 
 .page-content {
     background-color: white;
-    width: 75%;
     height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -57,18 +56,23 @@ body {
     bottom: 10px;
 }
 
+.image-credits > a {
+    color: white;
+}
+
 .right {
     width: 60%;
+    background-color: rgb(245, 245, 245);
 }
 
 .intro {
     padding: 15% 40px 10%;
-    background-color: aqua;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .form-content {
+    background-color: white;
     box-shadow: 0 5px 5px -2px lightgray;
     padding: 20px 40px 40px;
 }
@@ -124,7 +128,7 @@ button:hover {
     background-color: rgb(2, 175, 2);
 }
 
-form + p {
-    margin: 0 40px;
+.right > p {
+    margin: 0px 40px;
 }
 
