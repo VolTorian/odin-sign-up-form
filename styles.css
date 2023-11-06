@@ -85,6 +85,11 @@ body {
 
 .input-section {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.input-section > div {
+    width: 16rem;
 }
 
 .input-section div > div {
